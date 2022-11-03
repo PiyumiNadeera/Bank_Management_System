@@ -25,6 +25,7 @@ public class AdminLogging extends javax.swing.JFrame {
      * Creates new form AdminLogging
      */
     public AdminLogging() {
+
         initComponents();
         this.setLocationRelativeTo(null);
         conn = dbConfig.getConnection();
@@ -194,6 +195,7 @@ public class AdminLogging extends javax.swing.JFrame {
         jPasswordField1.setBackground(new java.awt.Color(204, 204, 204));
         jPasswordField1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
